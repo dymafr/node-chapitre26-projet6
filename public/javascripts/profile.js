@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const formContainer = document.querySelector('#form-container');
 
   formContainer.addEventListener('click', () => {
+    console.log('salut');
     inputAvatar.click();
   })
 
