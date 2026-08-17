@@ -5,7 +5,7 @@ const { clientPromise } = require('../database');
 
 app.use(
   session({
-    secret: 'je suis un secret',
+    secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: false,
     cookie: {
